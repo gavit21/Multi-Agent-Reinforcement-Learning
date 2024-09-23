@@ -3,6 +3,7 @@
 - Travelling Salesmans Problem 
 - SOKOBAN PUZZLE
 - Markov Decision Process (MDP) Analysis
+- Grid World Problem
 
   ### Requirements
 ~~~
