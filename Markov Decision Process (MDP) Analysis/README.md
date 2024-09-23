@@ -1,8 +1,6 @@
 # Assignment 1: Markov Decision Process (MDP) Analysis
 - We model a simple MDP where a student decides between attending classes and eating food in different locations. The goal is to find the optimal policy that maximizes the expected cumulative reward over time.
 
-## Question 1
-
 ### States
 - Hostel
 - Academic Building
@@ -29,7 +27,8 @@
 | Canteen          | Attend Classes | Canteen           | 0.1                    | +1     |
 | Canteen          | Eat Food       | Canteen           | 1.0                    | +1     |
 
-
+### Diagram
+![alt text](https://github.com/gavit21/Multi-Agent-Reinforcement-Learning/blob/main/Markov%20Decision%20Process%20(MDP)%20Analysis/MDP.png)
 
 ### Convergence
 The algorithm converged with a discount factor of γ (gamma) = 0.9.
