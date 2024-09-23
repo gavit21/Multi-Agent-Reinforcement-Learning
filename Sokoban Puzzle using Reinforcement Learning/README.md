@@ -11,25 +11,24 @@ The game takes place on a grid where each cell can either be a floor or a wall. 
 - The puzzle is solved once all boxes are placed at their respective storage locations.
 
 ## Environment Specifications
+![Description of the GIF](https://github.com/gavit21/Multi-Agent-Reinforcement-Learning/blob/main/Sokoban%20Puzzle%20using%20Reinforcement%20Learning/Sokoban_ani.gif
+)
 
-### Grid Dimensions
-The environment consists of a 6 x 7 grid.
+**Grid Dimensions**: The environment consists of a 6 x 7 grid.
 
-### State Space
-Each grid cell represents a state. For example, if the agent is located in row 2, column 3, the state is represented as `(2, 3)`.
+**State Space**: Each grid cell represents a state. For example, if the agent is located in row 2, column 3, the state is represented as `(2, 3)`.
 
-### Action Space
-The agent can move in four possible directions: UP, DOWN, LEFT, RIGHT. It can only push boxes forward and cannot pull them. Some actions may lead to irreversible situations, such as pushing a box into a corner or against the edge of a wall.
+**Action Space**: The agent can move in four possible directions: UP, DOWN, LEFT, RIGHT. It can only push boxes forward and cannot pull them. Some actions may lead to irreversible situations, such as pushing a box into a corner or against the edge of a wall.
 
-### Reward Structure
+**Reward Structure**
 - The agent receives a reward of -1 if a box is not placed at the storage location.
 - A reward of 0 is given when the box reaches its goal location.
 
-### Termination Conditions
+**Termination Conditions**
 - The episode terminates when all boxes are successfully placed in storage locations.
 - The environment also terminates if a box gets stuck in an unrecoverable position (e.g., pushed into a corner or against a wall).
 
-## Task
+**Task**
 You need to solve this problem using the following two approaches:
 1. **Dynamic Programming (DP)**: Implement either value iteration or policy iteration to solve the environment.
 2. **Monte Carlo (MC)**: Solve the environment using the Monte Carlo method with exploring starts, and compare both the first-visit and every-visit approaches.
