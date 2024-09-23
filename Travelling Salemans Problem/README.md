@@ -1,4 +1,4 @@
-# Modeling and Solving the Travelling Salesman Problem (TSP) using Reinforcement Learning:
+# Travelling Salesman Problem (TSP) using Reinforcement Learning:
 
 **Objective**:  In the TSP, an agent starts at a designated point and must visit a set of 50 targets, with the goal of minimizing the total travel cost.
 
