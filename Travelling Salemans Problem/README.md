@@ -1,4 +1,13 @@
-# Travelling Sales man Problem
+# Modeling and Solving the Travelling Salesman Problem (TSP) using Reinforcement Learning:
+
+**Objective**:  In the TSP, an agent starts at a designated point and must visit a set of 50 targets, with the goal of minimizing the total travel cost.
+
+**Instructions**: The provided TSP code is available in the marl-ecs-course repository under the Assignment 2 folder. You are expected to solve the problem using the following two approaches:
+
+- Dynamic Programming (DP): Implement either the value iteration or policy iteration method to find the optimal solution.
+
+- Monte Carlo (MC): Solve the TSP using the Monte Carlo method with exploring starts, and compare both the first-visit and every-visit approaches.
+
 
 ###  Run Code
 ```
