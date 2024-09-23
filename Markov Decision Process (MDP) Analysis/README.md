@@ -1,4 +1,4 @@
-# Assignment 1: Markov Decision Process (MDP) Analysis
+# Markov Decision Process (MDP) Analysis
 - We model a simple MDP where a student decides between attending classes and eating food in different locations. The goal is to find the optimal policy that maximizes the expected cumulative reward over time.
 
 ### States
@@ -32,7 +32,11 @@
 
 ### Convergence
 The algorithm converged with a discount factor of γ (gamma) = 0.9.
+###  Run Code
+```
+python main.py
 
+```
 ## Value Iteration
 The Value Iteration algorithm was applied to the MDP, resulting in the following optimal state values:
 
