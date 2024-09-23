@@ -2,3 +2,4 @@ numpy
 tqdm
 time    
 gym
+matplotlib
