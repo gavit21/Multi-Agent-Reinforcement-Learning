@@ -37,6 +37,8 @@ The algorithm converged with a discount factor of γ (gamma) = 0.9.
 python main.py
 
 ```
+# Results:
+
 ## Value Iteration
 The Value Iteration algorithm was applied to the MDP, resulting in the following optimal state values:
 
