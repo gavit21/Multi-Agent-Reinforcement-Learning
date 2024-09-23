@@ -11,6 +11,8 @@ The game takes place on a grid where each cell can either be a floor or a wall. 
 - The puzzle is solved once all boxes are placed at their respective storage locations.
 
 ## Environment Specifications
+![Description of the GIF](https://github.com/gavit21/Multi-Agent-Reinforcement-Learning/blob/main/Sokoban%20Puzzle%20using%20Reinforcement%20Learning/Sokoban_ani.gif
+)
 
 ### Grid Dimensions
 The environment consists of a 6 x 7 grid.
