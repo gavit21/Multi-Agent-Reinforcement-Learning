@@ -1,9 +1,10 @@
-# Welcome to the Breadcrumbs Multi-Agent-Reinforcement-Learning Repository 
+# Welcome to the Multi-Agent-Reinforcement-Learning Repository 
 **Problems Solved**: 
 - Travelling Salesmans Problem 
 - SOKOBAN PUZZLE
 - Markov Decision Process (MDP) Analysis
 - Grid World Problem
+- Modified Travelling Salesmans Problem by Q Learinig
 
   ### Requirements
 ~~~
