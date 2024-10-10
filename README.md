@@ -1,4 +1,4 @@
-# Welcome to the BreadcrumbsMulti-Agent-Reinforcement-Learning Repository 
+# Welcome to the Breadcrumbs Multi-Agent-Reinforcement-Learning Repository 
 **Problems Solved**: 
 - Travelling Salesmans Problem 
 - SOKOBAN PUZZLE
