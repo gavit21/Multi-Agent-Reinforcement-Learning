@@ -1,9 +1,18 @@
-# Mid Semester Report
+# Modified Travelling Salesman Problem (TSP) using Q-Learning
 
-**Name:** Gavit Deepesh Ravikant  
-**Roll No:** 20114  
+Model and solve a modified version of the Travelling Salesman Problem (TSP) using a Temporal Difference (TD)-based reinforcement learning algorithm. In this version of the TSP, each target has an associated profit that decays linearly with the distance travelled, described by the formula:
 
-## Method Used: Q-Learning
+- `p_i = p_i - dist_so_far()`
+
+
+Where:
+
+- `p_i` is the profit of the target.
+- `dist_so_far()` is the distance travelled so far.
+
+The problem involves 10 fixed targets whose profit values are shuffled across the targets after every `k` episodes. The goal is to visit each target in a sequence that maximizes the total collected profit.
+
+# Solution
 
 ### Requirements
 ~~~
