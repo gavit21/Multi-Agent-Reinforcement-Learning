@@ -4,7 +4,7 @@
 - SOKOBAN PUZZLE
 - Markov Decision Process (MDP) Analysis
 - Grid World Problem
-- Modified Travelling Salesmans Problem by Q Learinig
+- Modified Travelling Salesmans Problem by Q-Learinig
 
   ### Requirements
 ~~~
