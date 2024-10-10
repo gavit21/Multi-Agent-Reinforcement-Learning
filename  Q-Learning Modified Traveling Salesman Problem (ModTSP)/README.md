@@ -1,4 +1,5 @@
 # Modified Travelling Salesman Problem (TSP) using Q-Learning
+**Objective**:
 
 Model and solve a modified version of the Travelling Salesman Problem (TSP) using a Temporal Difference (TD)-based reinforcement learning algorithm. In this version of the TSP, each target has an associated profit that decays linearly with the distance travelled, described by the formula:
 
@@ -63,11 +64,11 @@ The following hyperparameters were tested to evaluate performance:
 
  convergence graph of all models test on vairous hyperparameters
 
- ![Episode vs. Cumulative Reward](link)
+ ![Episode vs. Cumulative Reward](https://github.com/gavit21/Multi-Agent-Reinforcement-Learning/blob/main/%20Q-Learning%20Modified%20Traveling%20Salesman%20Problem%20(ModTSP)/all_models_training_rewards.png)
 
  test reward comparision of all models
 
- ![Episode vs. Cumulative Reward](link)
+ ![Episode vs. Cumulative Reward](https://github.com/gavit21/Multi-Agent-Reinforcement-Learning/blob/main/%20Q-Learning%20Modified%20Traveling%20Salesman%20Problem%20(ModTSP)/test_reward_comparison.png)
 
 
 
